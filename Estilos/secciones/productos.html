@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="../estilos/estilos.css">
+    <link rel="stylesheet" href="../estilos/bootstrap.min.css">
+    <link rel="stylesheet" href="../estilos/estilos.css">
     <title>Estilos</title>
 </head>
 <body>
@@ -36,25 +37,37 @@
     </header>
     <!-- Fin menu de navegación -->
 <!-- inicio productos ofrecidos -->
-<main class="ProductosContacto">
-
+<main class="contenido">
         <h2>Jean's Oversize</h2>
-
+    <div>
         <ul>
             <li>
                 <figure>
-                    <img src="../img/jean mom claro roturas.jpg" alt="jean mom con roturas celeste">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/jean mom claro roturas.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">mom con roturas celeste</p>
+                        </div>
+                      </div>
                  </figure>
             </li>
         </ul>
+    </div>
+    <div>
         <ul>
             <li>
                 <figure>
-                    <img src="../img/jean mom clasic.jpg" alt="jean mom classic">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/jean mom clasic.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">mom clasico</p>
+                        </div>
+                      </div>
                 </figure>
             </li>
         </ul>
-
+    </div>
+</div> 
 </main>
 <!-- fin productos ofrecidos -->
     <footer>
@@ -62,5 +75,6 @@
         <h3 class="instagram">@estilosarg</h3> 
         <h3 class="tiktok">@estilosarg</h3>
     </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
